@@ -1,22 +1,22 @@
 class Wonderpod < Formula
   desc "CLI for the WonderPod ephemeral dev-environment control plane"
   homepage "https://github.com/wonderlydotcom/internal-tool-wonderpod"
-  version "0.50.0"
+  version "0.51.0"
 
   depends_on "wonderlydotcom/tap/internal-tools"
 
   # v0 ships osx-arm64 + linux-x64 only; osx-x64 and linux-arm64 are deferred fast-follow.
   on_macos do
     on_arm do
-      url "https://github.com/wonderlydotcom/homebrew-tap/releases/download/wonderpod-0.50.0/wonderpod-0.50.0-osx-arm64.tar.gz"
-      sha256 "393c935187d737df28374011204202ce9bf57b7fe7b35e32de53a358691bd32e"
+      url "https://github.com/wonderlydotcom/homebrew-tap/releases/download/wonderpod-0.51.0/wonderpod-0.51.0-osx-arm64.tar.gz"
+      sha256 "53f86ce5ef7e4d71ce7c1096378d53777363fb45f05cddf42ff3220b5ba01556"
     end
   end
 
   on_linux do
     on_intel do
-      url "https://github.com/wonderlydotcom/homebrew-tap/releases/download/wonderpod-0.50.0/wonderpod-0.50.0-linux-x64.tar.gz"
-      sha256 "25b77cd383e377c4a9ca8a1f3ebcf7869b72ca0bd12e4487f2081e33e00421c4"
+      url "https://github.com/wonderlydotcom/homebrew-tap/releases/download/wonderpod-0.51.0/wonderpod-0.51.0-linux-x64.tar.gz"
+      sha256 "73b2b662cb9f5c9e01c4af7862dd8c13adb9f13d0cb3773a3f8cf1ab1e9f88fc"
     end
   end
 
