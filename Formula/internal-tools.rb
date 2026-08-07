@@ -9,7 +9,7 @@ class InternalTools < Formula
 
   def install
     libexec.install "internal-tools"
-    (bin/"internal-tools").write_env_script libexec/"internal-tools", PATH => "#{Formula["python@3.12"].opt_bin}:$PATH"
+    (bin/"internal-tools").write_env_script libexec/"internal-tools", PATH => "#{Formula["python@3.12"].opt_libexec}/bin:$PATH"
   end
 
   test do
