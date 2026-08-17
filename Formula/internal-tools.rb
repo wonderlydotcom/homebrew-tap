@@ -1,9 +1,9 @@
 class InternalTools < Formula
   desc "Shared local auth helper for Wonderly internal IAP apps"
   homepage "https://github.com/wonderlydotcom/internal-tools-cli"
-  url "https://github.com/wonderlydotcom/homebrew-tap/releases/download/internal-tools-0.1.40/internal-tools-0.1.40.tar.gz"
-  sha256 "dc04e0373e107a6e1e9b613ebdf5face9cdaaec413067ff3558f893c3e433657"
-  version "0.1.40"
+  url "https://github.com/wonderlydotcom/homebrew-tap/releases/download/internal-tools-0.1.41/internal-tools-0.1.41.tar.gz"
+  sha256 "71e58d1be61af9bd09fa8effdd343cf075816a1e819bb0777ffce79c403b254a"
+  version "0.1.41"
 
   depends_on "python@3.12"
 
